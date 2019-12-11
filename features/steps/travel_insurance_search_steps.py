@@ -1,7 +1,7 @@
 from datetime import datetime
 from behave import *
 from helpers.data_helper import DataHelper
-from pageobjects.travel_insurance_page import TravelInsurancePage
+from pageobjects.pages.travel_insurance_page import TravelInsurancePage
 
 
 @when('the user clicks on Show my Results button')

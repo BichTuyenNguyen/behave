@@ -1,7 +1,7 @@
 from behave import given, when
 from conf.env_setup import EnvSetup
-from pageobjects.home_page import HomePage
-from pageobjects.insurance_page import InsurancePage
+from pageobjects.pages.home_page import HomePage
+from pageobjects.pages.insurance_page import InsurancePage
 
 
 @given('the user is standing at home page')

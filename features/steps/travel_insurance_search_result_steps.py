@@ -2,7 +2,7 @@ from datetime import datetime
 from behave import *
 from hamcrest import assert_that, equal_to
 from helpers.data_helper import DataHelper
-from pageobjects.travel_insurance_result_page import TravelInsuranceResultPage
+from pageobjects.pages.travel_insurance_result_page import TravelInsuranceResultPage
 from features.steps import constants
 
 
